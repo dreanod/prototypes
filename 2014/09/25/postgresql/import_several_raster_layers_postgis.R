@@ -12,11 +12,12 @@ system('psql -d test -U postgres -c "DROP TABLE IF EXISTS myraster"')
 system('/opt/local/lib/postgresql93/bin/raster2pgsql -p -I -C -F -s 4326 -b 1 ~/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc myraster | psql -d test -U postgres')
 system('psql -d test -U postgres -c "ALTER TABLE myraster ADD COLUMN date TIMESTAMP WITH TIME ZONE"')
 
+T<-10 # TODO
 for (t in 1:T) {
-  command <- paste('/opt/local/lib/postgresql93/bin/raster2pgsql -a -C -F -s 4326 -b', t, '~/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc myraster | psql -d test -U postgres')
+  command <- paste('/opt/local/lib/postgresql93/bin/raster2pgsql -a -F -s 4326 -b', t, '~/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc myraster | psql -d test -U postgres')
   system(command)
   
-  command <- paste('psql -d test -U postgres -c "UPDATE myraster SET date=\'01/01/2001\':: TIMESTAMP WITH TIME ZONE + interval ', 180 * t, 'minutes" rid=', t, '"')
+  command <- paste('psql -d test -U postgres -c "UPDATE myraster SET date=\'', datetime.origin, '+0\':: TIMESTAMP WITH TIME ZONE + interval \'', 180 * (t-1), 'minutes\' WHERE rid=', t, '"')
   print(command)
   system(command)
 }

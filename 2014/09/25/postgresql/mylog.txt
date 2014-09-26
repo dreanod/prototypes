@@ -1,0 +1,176 @@
+DROP TABLE
+BEGIN
+CREATE TABLE
+CREATE INDEX
+NOTICE:  Adding SRID constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding scale-X constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding scale-Y constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding blocksize-X constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Unable to add constraint: enforce_width_rast
+CONTEXT:  PL/pgSQL function _add_raster_constraint_blocksize(name,name,name,text) line 41 at RETURN
+PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 71 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  SQL used for failed constraint: ALTER TABLE public.myraster ADD CONSTRAINT enforce_width_rast CHECK (st_width(rast) IN ())
+CONTEXT:  PL/pgSQL function _add_raster_constraint_blocksize(name,name,name,text) line 41 at RETURN
+PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 71 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Returned error message: syntax error at or near ")"
+CONTEXT:  PL/pgSQL function _add_raster_constraint_blocksize(name,name,name,text) line 41 at RETURN
+PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 71 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+WARNING:  Unable to add constraint: 'blocksize_x'.  Skipping
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding blocksize-Y constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Unable to add constraint: enforce_height_rast
+CONTEXT:  PL/pgSQL function _add_raster_constraint_blocksize(name,name,name,text) line 41 at RETURN
+PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 74 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  SQL used for failed constraint: ALTER TABLE public.myraster ADD CONSTRAINT enforce_height_rast CHECK (st_height(rast) IN ())
+CONTEXT:  PL/pgSQL function _add_raster_constraint_blocksize(name,name,name,text) line 41 at RETURN
+PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 74 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Returned error message: syntax error at or near ")"
+CONTEXT:  PL/pgSQL function _add_raster_constraint_blocksize(name,name,name,text) line 41 at RETURN
+PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 74 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+WARNING:  Unable to add constraint: 'blocksize_y'.  Skipping
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding alignment constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding number of bands constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding pixel type constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Unable to get the pixel types of a sample raster
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 95 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+WARNING:  Unable to add constraint: 'pixel_types'.  Skipping
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding nodata value constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Unable to get the nodata values of a sample raster
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 98 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+WARNING:  Unable to add constraint: 'nodata_values'.  Skipping
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding out-of-database constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Unable to get the out-of-database bands of a sample raster
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,text[]) line 101 at assignment
+PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+WARNING:  Unable to add constraint: 'out_db'.  Skipping
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+NOTICE:  Adding maximum extent constraint
+CONTEXT:  PL/pgSQL function addrasterconstraints(name,name,name,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean) line 53 at RETURN
+ addrasterconstraints 
+----------------------
+ t
+(1 row)
+
+COMMIT
+ALTER TABLE
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 180 minutes' WHERE rid= 1 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 360 minutes' WHERE rid= 2 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 540 minutes' WHERE rid= 3 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 720 minutes' WHERE rid= 4 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 900 minutes' WHERE rid= 5 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 1080 minutes' WHERE rid= 6 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 1260 minutes' WHERE rid= 7 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 1440 minutes' WHERE rid= 8 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 1620 minutes' WHERE rid= 9 \""
+UPDATE 1
+Processing 1/1: /Users/denis/Dropbox/data/Wind2000-2013/MIT-01JAN01-01JAN02_u10.nc
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Warning 1: Latitude grid not spaced evenly.
+Seting projection for grid spacing is within 0.1 degrees threshold.
+
+BEGIN
+INSERT 0 1
+COMMIT
+[1] "psql -d test -U postgres -c \"UPDATE myraster SET date=' 2001-01-01 00:00 ':: TIMESTAMP WITH TIME ZONE + interval ' 1800 minutes' WHERE rid= 10 \""
+UPDATE 1
