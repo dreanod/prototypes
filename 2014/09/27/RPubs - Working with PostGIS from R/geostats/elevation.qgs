@@ -1,0 +1,585 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.8.0-Lisboa">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>-11600786.730569</xmin>
+            <ymin>1653094.618834</ymin>
+            <xmax>-10288321.123766</xmax>
+            <ymax>2601456.863749</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                <srsid>3857</srsid>
+                <srid>3857</srid>
+                <authid>EPSG:3857</authid>
+                <description>WGS 84 / Pseudo Mercator</description>
+                <projectionacronym>merc</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="states" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="states20130531195841809" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="elevation" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="elevation20130531175324515" visible="1"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>-16142821.002429</xmin>
+            <ymin>1400782.270119</ymin>
+            <xmax>-6460147.676466</xmax>
+            <ymax>4305584.267908</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                <srsid>3857</srsid>
+                <srid>3857</srid>
+                <authid>EPSG:3857</authid>
+                <description>WGS 84 / Pseudo Mercator</description>
+                <projectionacronym>merc</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>-16142821.002429</xmin>
+            <ymin>1400782.270119</ymin>
+            <xmax>-6460147.676466</xmax>
+            <ymax>4305584.267908</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                <srsid>3857</srsid>
+                <srid>3857</srid>
+                <authid>EPSG:3857</authid>
+                <description>WGS 84 / Pseudo Mercator</description>
+                <projectionacronym>merc</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <projectlayers layercount="2">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>elevation20130531175324515</id>
+            <datasource>./elevation.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>elevation</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
+                <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-3.40282e+38</min>
+                        <max>3.40282e+38</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-339999999999999996123846586046231871488.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-339999999999999996123846586046231871488.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-339999999999999996123846586046231871488.000000" blue="-339999999999999996123846586046231871488.000000" green="-339999999999999996123846586046231871488.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+                <customColorRamp>
+                    <colorRampType>DISCRETE</colorRampType>
+                    <colorRampEntry red="0" blue="184" value="-0.110050" green="194" label=" "/>
+                    <colorRampEntry red="0" blue="182" value="0.973930" green="195" label=" "/>
+                    <colorRampEntry red="0" blue="179" value="1.922400" green="195" label=" "/>
+                    <colorRampEntry red="0" blue="176" value="2.057900" green="196" label=" "/>
+                    <colorRampEntry red="0" blue="173" value="2.870880" green="197" label=" "/>
+                    <colorRampEntry red="0" blue="170" value="3.006370" green="198" label=" "/>
+                    <colorRampEntry red="0" blue="167" value="3.954850" green="199" label=" "/>
+                    <colorRampEntry red="0" blue="165" value="4.090350" green="200" label=" "/>
+                    <colorRampEntry red="0" blue="162" value="4.225840" green="201" label=" "/>
+                    <colorRampEntry red="0" blue="159" value="4.903330" green="202" label=" "/>
+                    <colorRampEntry red="0" blue="157" value="5.038820" green="203" label=" "/>
+                    <colorRampEntry red="0" blue="154" value="5.987300" green="204" label=" "/>
+                    <colorRampEntry red="0" blue="151" value="6.122800" green="205" label=" "/>
+                    <colorRampEntry red="0" blue="148" value="6.935780" green="206" label=" "/>
+                    <colorRampEntry red="0" blue="146" value="7.071270" green="207" label=" "/>
+                    <colorRampEntry red="0" blue="143" value="7.884250" green="208" label=" "/>
+                    <colorRampEntry red="0" blue="140" value="8.968230" green="209" label=" "/>
+                    <colorRampEntry red="0" blue="137" value="9.103720" green="210" label=" "/>
+                    <colorRampEntry red="0" blue="134" value="9.916700" green="211" label=" "/>
+                    <colorRampEntry red="0" blue="131" value="10.865180" green="211" label=" "/>
+                    <colorRampEntry red="0" blue="129" value="11.000680" green="212" label=" "/>
+                    <colorRampEntry red="0" blue="126" value="11.949150" green="213" label=" "/>
+                    <colorRampEntry red="0" blue="123" value="12.897630" green="214" label=" "/>
+                    <colorRampEntry red="0" blue="120" value="13.033120" green="215" label=" "/>
+                    <colorRampEntry red="0" blue="117" value="13.981600" green="216" label=" "/>
+                    <colorRampEntry red="0" blue="115" value="14.930080" green="217" label=" "/>
+                    <colorRampEntry red="0" blue="112" value="15.878550" green="218" label=" "/>
+                    <colorRampEntry red="0" blue="109" value="16.962530" green="219" label=" "/>
+                    <colorRampEntry red="0" blue="106" value="17.911000" green="220" label=" "/>
+                    <colorRampEntry red="0" blue="103" value="18.994980" green="221" label=" "/>
+                    <colorRampEntry red="0" blue="100" value="19.130470" green="222" label=" "/>
+                    <colorRampEntry red="0" blue="98" value="19.943450" green="223" label=" "/>
+                    <colorRampEntry red="0" blue="95" value="20.891930" green="224" label=" "/>
+                    <colorRampEntry red="0" blue="92" value="21.975900" green="225" label=" "/>
+                    <colorRampEntry red="0" blue="90" value="22.924380" green="225" label=" "/>
+                    <colorRampEntry red="0" blue="87" value="23.872850" green="226" label=" "/>
+                    <colorRampEntry red="0" blue="84" value="24.956830" green="227" label=" "/>
+                    <colorRampEntry red="0" blue="81" value="25.905300" green="228" label=" "/>
+                    <colorRampEntry red="0" blue="78" value="26.989270" green="229" label=" "/>
+                    <colorRampEntry red="0" blue="76" value="27.937750" green="230" label=" "/>
+                    <colorRampEntry red="0" blue="73" value="28.886230" green="231" label=" "/>
+                    <colorRampEntry red="0" blue="70" value="29.970200" green="232" label=" "/>
+                    <colorRampEntry red="0" blue="67" value="30.918680" green="233" label=" "/>
+                    <colorRampEntry red="0" blue="64" value="31.867150" green="234" label=" "/>
+                    <colorRampEntry red="0" blue="62" value="32.002650" green="235" label=" "/>
+                    <colorRampEntry red="0" blue="59" value="32.951130" green="235" label=" "/>
+                    <colorRampEntry red="0" blue="56" value="33.899600" green="236" label=" "/>
+                    <colorRampEntry red="0" blue="54" value="34.983570" green="237" label=" "/>
+                    <colorRampEntry red="0" blue="50" value="35.932050" green="238" label=" "/>
+                    <colorRampEntry red="0" blue="47" value="36.880530" green="239" label=" "/>
+                    <colorRampEntry red="0" blue="45" value="37.964500" green="240" label=" "/>
+                    <colorRampEntry red="0" blue="42" value="38.912980" green="241" label=" "/>
+                    <colorRampEntry red="0" blue="39" value="40.945430" green="242" label=" "/>
+                    <colorRampEntry red="0" blue="37" value="41.893900" green="243" label=" "/>
+                    <colorRampEntry red="0" blue="33" value="42.977870" green="244" label=" "/>
+                    <colorRampEntry red="0" blue="31" value="43.926350" green="245" label=" "/>
+                    <colorRampEntry red="0" blue="28" value="44.874830" green="246" label=" "/>
+                    <colorRampEntry red="0" blue="26" value="45.958800" green="247" label=" "/>
+                    <colorRampEntry red="0" blue="23" value="46.907280" green="248" label=" "/>
+                    <colorRampEntry red="0" blue="20" value="48.939730" green="249" label=" "/>
+                    <colorRampEntry red="0" blue="17" value="49.888200" green="250" label=" "/>
+                    <colorRampEntry red="0" blue="14" value="50.972180" green="251" label=" "/>
+                    <colorRampEntry red="0" blue="11" value="51.920650" green="252" label=" "/>
+                    <colorRampEntry red="0" blue="9" value="53.953100" green="252" label=" "/>
+                    <colorRampEntry red="0" blue="6" value="54.901580" green="253" label=" "/>
+                    <colorRampEntry red="0" blue="3" value="56.934020" green="254" label=" "/>
+                    <colorRampEntry red="0" blue="0" value="58.966480" green="255" label=" "/>
+                    <colorRampEntry red="3" blue="0" value="59.914950" green="255" label=" "/>
+                    <colorRampEntry red="6" blue="0" value="60.998920" green="255" label=" "/>
+                    <colorRampEntry red="10" blue="0" value="62.895880" green="255" label=" "/>
+                    <colorRampEntry red="13" blue="0" value="63.979850" green="255" label=" "/>
+                    <colorRampEntry red="17" blue="0" value="65.876800" green="255" label=" "/>
+                    <colorRampEntry red="21" blue="0" value="66.960780" green="255" label=" "/>
+                    <colorRampEntry red="25" blue="0" value="68.993230" green="255" label=" "/>
+                    <colorRampEntry red="28" blue="0" value="69.941700" green="255" label=" "/>
+                    <colorRampEntry red="32" blue="0" value="71.974150" green="255" label=" "/>
+                    <colorRampEntry red="35" blue="0" value="73.871100" green="255" label=" "/>
+                    <colorRampEntry red="39" blue="0" value="74.955080" green="255" label=" "/>
+                    <colorRampEntry red="43" blue="0" value="76.987530" green="255" label=" "/>
+                    <colorRampEntry red="47" blue="0" value="77.936000" green="255" label=" "/>
+                    <colorRampEntry red="51" blue="0" value="79.968450" green="255" label=" "/>
+                    <colorRampEntry red="54" blue="0" value="80.916920" green="255" label=" "/>
+                    <colorRampEntry red="58" blue="0" value="82.949380" green="255" label=" "/>
+                    <colorRampEntry red="62" blue="0" value="83.897850" green="255" label=" "/>
+                    <colorRampEntry red="66" blue="0" value="85.930310" green="255" label=" "/>
+                    <colorRampEntry red="69" blue="0" value="86.878780" green="255" label=" "/>
+                    <colorRampEntry red="73" blue="0" value="88.911220" green="255" label=" "/>
+                    <colorRampEntry red="77" blue="0" value="90.943680" green="255" label=" "/>
+                    <colorRampEntry red="80" blue="0" value="91.892150" green="255" label=" "/>
+                    <colorRampEntry red="84" blue="0" value="93.924600" green="255" label=" "/>
+                    <colorRampEntry red="88" blue="0" value="95.957050" green="255" label=" "/>
+                    <colorRampEntry red="92" blue="0" value="97.989500" green="255" label=" "/>
+                    <colorRampEntry red="95" blue="0" value="98.937970" green="255" label=" "/>
+                    <colorRampEntry red="99" blue="0" value="100.970430" green="255" label=" "/>
+                    <colorRampEntry red="103" blue="0" value="102.867380" green="255" label=" "/>
+                    <colorRampEntry red="106" blue="0" value="104.899830" green="255" label=" "/>
+                    <colorRampEntry red="111" blue="0" value="105.983800" green="255" label=" "/>
+                    <colorRampEntry red="114" blue="0" value="107.880750" green="255" label=" "/>
+                    <colorRampEntry red="118" blue="0" value="109.913200" green="255" label=" "/>
+                    <colorRampEntry red="121" blue="0" value="111.945650" green="255" label=" "/>
+                    <colorRampEntry red="125" blue="0" value="113.978100" green="255" label=" "/>
+                    <colorRampEntry red="129" blue="0" value="114.926570" green="255" label=" "/>
+                    <colorRampEntry red="133" blue="0" value="116.959020" green="255" label=" "/>
+                    <colorRampEntry red="137" blue="0" value="118.991480" green="255" label=" "/>
+                    <colorRampEntry red="140" blue="0" value="121.972400" green="255" label=" "/>
+                    <colorRampEntry red="144" blue="0" value="122.920880" green="255" label=" "/>
+                    <colorRampEntry red="148" blue="0" value="124.953320" green="255" label=" "/>
+                    <colorRampEntry red="151" blue="0" value="126.985780" green="255" label=" "/>
+                    <colorRampEntry red="155" blue="0" value="128.882720" green="255" label=" "/>
+                    <colorRampEntry red="159" blue="0" value="131.999150" green="255" label=" "/>
+                    <colorRampEntry red="163" blue="0" value="133.896100" green="255" label=" "/>
+                    <colorRampEntry red="166" blue="0" value="135.928560" green="255" label=" "/>
+                    <colorRampEntry red="169" blue="0" value="137.961000" green="255" label=" "/>
+                    <colorRampEntry red="173" blue="0" value="139.993450" green="255" label=" "/>
+                    <colorRampEntry red="177" blue="0" value="141.890400" green="255" label=" "/>
+                    <colorRampEntry red="181" blue="0" value="143.922850" green="255" label=" "/>
+                    <colorRampEntry red="185" blue="0" value="146.903780" green="255" label=" "/>
+                    <colorRampEntry red="188" blue="0" value="148.936230" green="255" label=" "/>
+                    <colorRampEntry red="192" blue="0" value="151.917140" green="255" label=" "/>
+                    <colorRampEntry red="196" blue="0" value="153.949600" green="255" label=" "/>
+                    <colorRampEntry red="200" blue="0" value="156.930530" green="255" label=" "/>
+                    <colorRampEntry red="204" blue="0" value="159.911450" green="255" label=" "/>
+                    <colorRampEntry red="207" blue="0" value="162.892380" green="255" label=" "/>
+                    <colorRampEntry red="211" blue="0" value="165.873310" green="255" label=" "/>
+                    <colorRampEntry red="214" blue="0" value="167.905750" green="255" label=" "/>
+                    <colorRampEntry red="218" blue="0" value="170.886670" green="255" label=" "/>
+                    <colorRampEntry red="222" blue="0" value="173.867600" green="255" label=" "/>
+                    <colorRampEntry red="226" blue="0" value="176.984020" green="255" label=" "/>
+                    <colorRampEntry red="230" blue="0" value="179.964950" green="255" label=" "/>
+                    <colorRampEntry red="233" blue="0" value="182.945880" green="255" label=" "/>
+                    <colorRampEntry red="237" blue="0" value="186.875270" green="255" label=" "/>
+                    <colorRampEntry red="240" blue="0" value="189.991700" green="255" label=" "/>
+                    <colorRampEntry red="245" blue="0" value="192.972630" green="255" label=" "/>
+                    <colorRampEntry red="248" blue="0" value="196.902020" green="255" label=" "/>
+                    <colorRampEntry red="252" blue="0" value="200.966920" green="255" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="203.947850" green="255" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="207.877260" green="254" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="211.942150" green="252" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="215.871550" green="250" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="219.936450" green="248" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="223.865860" green="246" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="227.930760" green="244" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="231.995650" green="242" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="235.925050" green="241" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="239.989940" green="239" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="244.867830" green="237" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="248.932720" green="235" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="253.946110" green="233" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="257.875490" green="231" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="262.888890" green="229" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="266.953770" green="227" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="272.915620" green="225" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="277.929020" green="224" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="281.993900" green="222" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="287.955750" green="220" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="293.917600" green="218" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="299.879460" green="216" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="305.976810" green="214" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="313.971100" green="212" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="319.932950" green="210" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="324.946320" green="209" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="330.908170" green="207" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="336.870030" green="205" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="342.967380" green="203" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="348.929230" green="201" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="355.975040" green="199" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="362.885380" green="197" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="368.982730" green="196" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="375.893070" green="194" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="383.887360" green="192" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="391.881650" green="190" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="398.927490" green="188" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="405.973300" green="186" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="413.967590" green="184" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="420.877930" green="182" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="427.923770" green="180" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="434.969570" green="178" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="441.879910" green="177" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="449.874210" green="175" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="457.868500" green="173" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="465.998290" green="171" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="473.992610" green="169" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="483.883850" green="167" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="491.878140" green="165" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="500.956420" green="164" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="509.899200" green="162" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="518.977480" green="160" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="526.971800" green="158" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="537.947020" green="157" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="545.941280" green="155" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="555.968080" green="153" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="565.994810" green="151" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="575.886050" green="149" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="584.964360" green="147" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="595.939580" green="145" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="604.882320" green="143" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="615.993040" green="142" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="624.935850" green="140" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="634.962590" green="138" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="644.989320" green="136" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="655.964540" green="134" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="666.939760" green="132" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="677.914980" green="130" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="686.993290" green="129" label=" "/>
+                    <colorRampEntry red="255" blue="0" value="697.968510" green="127" label=" "/>
+                    <colorRampEntry red="254" blue="1" value="706.911250" green="127" label=" "/>
+                    <colorRampEntry red="253" blue="2" value="715.989560" green="127" label=" "/>
+                    <colorRampEntry red="252" blue="3" value="726.964780" green="127" label=" "/>
+                    <colorRampEntry red="251" blue="4" value="737.940000" green="127" label=" "/>
+                    <colorRampEntry red="250" blue="5" value="748.915220" green="127" label=" "/>
+                    <colorRampEntry red="249" blue="6" value="760.974430" green="127" label=" "/>
+                    <colorRampEntry red="248" blue="7" value="771.949650" green="127" label=" "/>
+                    <colorRampEntry red="247" blue="8" value="781.976380" green="127" label=" "/>
+                    <colorRampEntry red="246" blue="9" value="795.932560" green="127" label=" "/>
+                    <colorRampEntry red="245" blue="10" value="807.991760" green="127" label=" "/>
+                    <colorRampEntry red="244" blue="11" value="816.934510" green="127" label=" "/>
+                    <colorRampEntry red="243" blue="12" value="828.993710" green="127" label=" "/>
+                    <colorRampEntry red="242" blue="13" value="840.917420" green="127" label=" "/>
+                    <colorRampEntry red="241" blue="14" value="851.892640" green="127" label=" "/>
+                    <colorRampEntry red="240" blue="15" value="861.919370" green="127" label=" "/>
+                    <colorRampEntry red="239" blue="15" value="873.978580" green="127" label=" "/>
+                    <colorRampEntry red="238" blue="16" value="887.934750" green="127" label=" "/>
+                    <colorRampEntry red="237" blue="17" value="899.993960" green="127" label=" "/>
+                    <colorRampEntry red="236" blue="18" value="912.866150" green="127" label=" "/>
+                    <colorRampEntry red="236" blue="19" value="926.957760" green="127" label=" "/>
+                    <colorRampEntry red="235" blue="20" value="940.913940" green="127" label=" "/>
+                    <colorRampEntry red="234" blue="21" value="953.921630" green="127" label=" "/>
+                    <colorRampEntry red="233" blue="22" value="968.961730" green="127" label=" "/>
+                    <colorRampEntry red="232" blue="23" value="983.866330" green="127" label=" "/>
+                    <colorRampEntry red="231" blue="24" value="996.874020" green="127" label=" "/>
+                    <colorRampEntry red="230" blue="25" value="1008.933230" green="127" label=" "/>
+                    <colorRampEntry red="229" blue="26" value="1020.992430" green="127" label=" "/>
+                    <colorRampEntry red="228" blue="27" value="1031.967650" green="127" label=" "/>
+                    <colorRampEntry red="227" blue="27" value="1045.923830" green="127" label=" "/>
+                    <colorRampEntry red="226" blue="28" value="1059.880000" green="127" label=" "/>
+                    <colorRampEntry red="225" blue="29" value="1072.887570" green="127" label=" "/>
+                    <colorRampEntry red="224" blue="30" value="1083.998290" green="127" label=" "/>
+                    <colorRampEntry red="223" blue="31" value="1093.889650" green="127" label=" "/>
+                    <colorRampEntry red="222" blue="32" value="1102.967900" green="127" label=" "/>
+                    <colorRampEntry red="222" blue="33" value="1111.910640" green="127" label=" "/>
+                    <colorRampEntry red="221" blue="34" value="1121.937380" green="127" label=" "/>
+                    <colorRampEntry red="219" blue="35" value="1133.996580" green="127" label=" "/>
+                    <colorRampEntry red="219" blue="36" value="1147.952760" green="127" label=" "/>
+                    <colorRampEntry red="218" blue="37" value="1158.927980" green="127" label=" "/>
+                    <colorRampEntry red="217" blue="38" value="1169.903200" green="127" label=" "/>
+                    <colorRampEntry red="216" blue="39" value="1179.929930" green="127" label=" "/>
+                    <colorRampEntry red="215" blue="39" value="1189.956670" green="127" label=" "/>
+                    <colorRampEntry red="214" blue="41" value="1200.931880" green="127" label=" "/>
+                    <colorRampEntry red="213" blue="41" value="1209.874760" green="127" label=" "/>
+                    <colorRampEntry red="212" blue="42" value="1219.901490" green="127" label=" "/>
+                    <colorRampEntry red="211" blue="43" value="1229.928220" green="127" label=" "/>
+                    <colorRampEntry red="210" blue="44" value="1238.870970" green="127" label=" "/>
+                    <colorRampEntry red="209" blue="45" value="1247.949220" green="127" label=" "/>
+                    <colorRampEntry red="208" blue="46" value="1258.924440" green="127" label=" "/>
+                    <colorRampEntry red="207" blue="47" value="1269.899660" green="127" label=" "/>
+                    <colorRampEntry red="206" blue="48" value="1278.978030" green="127" label=" "/>
+                    <colorRampEntry red="206" blue="49" value="1289.953250" green="127" label=" "/>
+                    <colorRampEntry red="205" blue="50" value="1298.896000" green="127" label=" "/>
+                    <colorRampEntry red="204" blue="51" value="1307.974240" green="127" label=" "/>
+                    <colorRampEntry red="203" blue="52" value="1315.968510" green="127" label=" "/>
+                    <colorRampEntry red="202" blue="52" value="1324.911380" green="127" label=" "/>
+                    <colorRampEntry red="201" blue="53" value="1333.989620" green="127" label=" "/>
+                    <colorRampEntry red="200" blue="54" value="1344.964840" green="127" label=" "/>
+                    <colorRampEntry red="199" blue="55" value="1354.991580" green="127" label=" "/>
+                    <colorRampEntry red="198" blue="56" value="1364.882810" green="127" label=" "/>
+                    <colorRampEntry red="197" blue="57" value="1374.909550" green="127" label=" "/>
+                    <colorRampEntry red="196" blue="58" value="1385.884770" green="127" label=" "/>
+                    <colorRampEntry red="196" blue="59" value="1395.911500" green="127" label=" "/>
+                    <colorRampEntry red="195" blue="59" value="1406.886720" green="127" label=" "/>
+                    <colorRampEntry red="194" blue="60" value="1417.997560" green="127" label=" "/>
+                    <colorRampEntry red="193" blue="61" value="1427.888790" green="127" label=" "/>
+                    <colorRampEntry red="191" blue="62" value="1437.915530" green="127" label=" "/>
+                    <colorRampEntry red="189" blue="63" value="1448.890750" green="126" label=" "/>
+                    <colorRampEntry red="187" blue="62" value="1460.949950" green="124" label=" "/>
+                    <colorRampEntry red="185" blue="61" value="1474.906130" green="123" label=" "/>
+                    <colorRampEntry red="182" blue="61" value="1486.965330" green="121" label=" "/>
+                    <colorRampEntry red="180" blue="60" value="1498.889040" green="120" label=" "/>
+                    <colorRampEntry red="177" blue="59" value="1510.948120" green="118" label=" "/>
+                    <colorRampEntry red="174" blue="59" value="1521.923460" green="116" label=" "/>
+                    <colorRampEntry red="172" blue="58" value="1533.982540" green="115" label=" "/>
+                    <colorRampEntry red="170" blue="58" value="1545.906250" green="113" label=" "/>
+                    <colorRampEntry red="167" blue="57" value="1558.913940" green="112" label=" "/>
+                    <colorRampEntry red="165" blue="56" value="1570.973140" green="110" label=" "/>
+                    <colorRampEntry red="162" blue="56" value="1585.877810" green="109" label=" "/>
+                    <colorRampEntry red="159" blue="55" value="1600.917970" green="107" label=" "/>
+                    <colorRampEntry red="157" blue="54" value="1614.874020" green="106" label=" "/>
+                    <colorRampEntry red="155" blue="54" value="1629.914180" green="104" label=" "/>
+                    <colorRampEntry red="153" blue="53" value="1644.954350" green="102" label=" "/>
+                    <colorRampEntry red="150" blue="53" value="1660.942870" green="101" label=" "/>
+                    <colorRampEntry red="147" blue="52" value="1676.931520" green="99" label=" "/>
+                    <colorRampEntry red="145" blue="51" value="1692.920170" green="98" label=" "/>
+                    <colorRampEntry red="142" blue="51" value="1708.908690" green="96" label=" "/>
+                    <colorRampEntry red="140" blue="50" value="1723.948850" green="95" label=" "/>
+                    <colorRampEntry red="138" blue="49" value="1738.989010" green="93" label=" "/>
+                    <colorRampEntry red="135" blue="49" value="1752.945070" green="92" label=" "/>
+                    <colorRampEntry red="132" blue="48" value="1768.933720" green="90" label=" "/>
+                    <colorRampEntry red="130" blue="47" value="1784.922360" green="88" label=" "/>
+                    <colorRampEntry red="127" blue="47" value="1802.943360" green="87" label=" "/>
+                    <colorRampEntry red="125" blue="46" value="1819.880490" green="85" label=" "/>
+                    <colorRampEntry red="123" blue="46" value="1834.920530" green="84" label=" "/>
+                    <colorRampEntry red="120" blue="45" value="1849.960690" green="83" label=" "/>
+                    <colorRampEntry red="117" blue="44" value="1865.949340" green="80" label=" "/>
+                    <colorRampEntry red="115" blue="44" value="1881.937870" green="79" label=" "/>
+                    <colorRampEntry red="112" blue="43" value="1895.894040" green="78" label=" "/>
+                    <colorRampEntry red="110" blue="42" value="1909.985720" green="76" label=" "/>
+                    <colorRampEntry red="108" blue="42" value="1924.890380" green="75" label=" "/>
+                    <colorRampEntry red="105" blue="41" value="1940.878910" green="73" label=" "/>
+                    <colorRampEntry red="102" blue="40" value="1953.886600" green="72" label=" "/>
+                    <colorRampEntry red="100" blue="40" value="1967.978270" green="70" label=" "/>
+                    <colorRampEntry red="97" blue="39" value="1980.985960" green="68" label=" "/>
+                    <colorRampEntry red="95" blue="39" value="1992.909670" green="67" label=" "/>
+                    <colorRampEntry red="93" blue="38" value="2005.917360" green="65" label=" "/>
+                    <colorRampEntry red="90" blue="37" value="2018.924930" green="64" label=" "/>
+                    <colorRampEntry red="87" blue="37" value="2033.965090" green="62" label=" "/>
+                    <colorRampEntry red="85" blue="36" value="2047.921260" green="60" label=" "/>
+                    <colorRampEntry red="82" blue="35" value="2062.961430" green="59" label=" "/>
+                    <colorRampEntry red="80" blue="35" value="2078.949950" green="57" label=" "/>
+                    <colorRampEntry red="78" blue="34" value="2095.886960" green="56" label=" "/>
+                    <colorRampEntry red="75" blue="34" value="2114.992190" green="54" label=" "/>
+                    <colorRampEntry red="72" blue="33" value="2133.961670" green="53" label=" "/>
+                    <colorRampEntry red="70" blue="32" value="2149.950200" green="51" label=" "/>
+                    <colorRampEntry red="67" blue="32" value="2166.887210" green="49" label=" "/>
+                    <colorRampEntry red="65" blue="31" value="2183.959960" green="48" label=" "/>
+                    <colorRampEntry red="63" blue="30" value="2201.980960" green="46" label=" "/>
+                    <colorRampEntry red="60" blue="30" value="2220.950440" green="45" label=" "/>
+                    <colorRampEntry red="57" blue="29" value="2240.868410" green="43" label=" "/>
+                    <colorRampEntry red="55" blue="28" value="2259.973390" green="42" label=" "/>
+                    <colorRampEntry red="52" blue="28" value="2280.975340" green="40" label=" "/>
+                    <colorRampEntry red="50" blue="27" value="2306.990720" green="39" label=" "/>
+                    <colorRampEntry red="47" blue="27" value="2333.954590" green="37" label=" "/>
+                    <colorRampEntry red="45" blue="26" value="2363.899410" green="36" label=" "/>
+                    <colorRampEntry red="42" blue="25" value="2394.927980" green="34" label=" "/>
+                    <colorRampEntry red="40" blue="25" value="2428.937740" green="32" label=" "/>
+                    <colorRampEntry red="37" blue="24" value="2468.909180" green="31" label=" "/>
+                    <colorRampEntry red="35" blue="23" value="2526.901860" green="29" label=" "/>
+                    <colorRampEntry red="32" blue="23" value="2580.964840" green="28" label=" "/>
+                    <colorRampEntry red="30" blue="22" value="2648.984130" green="26" label=" "/>
+                    <colorRampEntry red="28" blue="22" value="2755.891110" green="24" label=" "/>
+                    <colorRampEntry red="25" blue="21" value="5218.135250" green="23" label=" "/>
+                </customColorRamp>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>states20130531195841809</id>
+            <datasource>dbname='geostats' host=localhost port=5432 user='postgres' password='postgres' sslmode=disable key='ogc_fid' srid=4326 type=POLYGON table="states" (geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>states</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="90,148,159,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>admin_name</displayfield>
+            <label>1</label>
+            <labelfield>admin_name</labelfield>
+            <labelattributes>
+                <label fieldname="admin_name" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="admin_name"/>
+                <edittype type="0" name="gid"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="pop_admin"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSOnlineResource type="QString"></WMSOnlineResource>
+        <WMSContactPerson type="QString"></WMSContactPerson>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3857</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <WMSContactMail type="QString"></WMSContactMail>
+        <WFSLayers type="QStringList"/>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSServiceTitle type="QString"></WMSServiceTitle>
+    </properties>
+</qgis>
