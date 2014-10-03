@@ -24,3 +24,5 @@ library(rgdal)
 dsn <- "PG:dbname=test user=postgres table=my_windspd_view_mean"
 windspd <- readGDAL(dsn)
 
+library(rasterVis)
+levelplot(raster(windspd))

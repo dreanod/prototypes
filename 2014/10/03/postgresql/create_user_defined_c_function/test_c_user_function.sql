@@ -1,0 +1,1 @@
+SELECT add_one(1)
