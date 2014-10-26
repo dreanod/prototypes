@@ -1,0 +1,38 @@
+Ideas for Research plan
+=======================
+Conferences
+-----------
+AGU
+EGU
+ICCS
+KDD
+FOSS4G
+SIAM conference on data mining
+DMESS
+
+Fields
+------
+Spatial/ Spatiotemporal statistics
+Spatial data mining
+GIS
+Data science
+Spatial data analysis
+Machine Learning
+
+Books
+-----
+Spatial statistics, Cressie
+Spatiotemporal data, Cressie Wikle
+
+
+Tools
+-----
+R (ggplot2, sp, raster)
+Python (scikit-learn, pandas)
+Postgresql/Postgis
+
+
+
+----------------------------------------------------------------------
+CHl specific topics
+read http://oceancolor.gsfc.nasa.gov/WIKI/OCProd.html
